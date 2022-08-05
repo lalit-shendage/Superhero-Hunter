@@ -1,0 +1,9 @@
+body{
+    background-image: url("/media/images/bg3.jpg") ;
+    color: azure;
+    background-repeat: no-repeat;
+    /* background-size: 100vh 100vh; */
+}
+.nav-item{
+    background-color: aqua;
+}
