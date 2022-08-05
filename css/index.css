@@ -4,6 +4,17 @@ body{
     background-repeat: no-repeat;
     /* background-size: 100vh 100vh; */
 }
-.nav-item{
+.nav-link{
     background-color: aqua;
+    margin-top: 5px;
+    margin:5%;
+}
+.form-control{
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.form-control:hover{
+    box-shadow: 120px 80px 40px 20px #0ff000;
 }
