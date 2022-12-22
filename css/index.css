@@ -2,19 +2,93 @@ body{
     background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Silver-surfe-superhero-wallpaper.jpg") ;
     color: azure;
     background-repeat: no-repeat;
-    /* background-size: 100vh 100vh; */
+
 }
 .nav-link{
     background-color: aqua;
     margin-top: 5px;
     margin:5%;
 }
+.nav-link:hover{
+ box-shadow: 15px beige;
+}
+
 .form-control{
     margin-top: 50px;
     margin-left: 25%;
     margin-right: 25%;
 }
 
-.form-control:hover{
-    box-shadow: 120px 80px 40px 20px #0ff000;
+.inactive{
+ color: aliceblue;
+}
+
+.heading {
+    text-align: center;
+    color: lightyellow;
+}
+#cards-group{
+    margin: 45px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 5%;
+}
+.card-title{
+    color: black;
+}
+.card-body{
+    background-color: blanchedalmond;
+}
+.icon{
+    color: red;
+}
+.addFavourite {
+    background-image: linear-gradient(#fc5b5b, #c90000);
+    border: 1px solid #0077CC;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    direction: ltr;
+    display: block;
+    font-family: "SF Pro Text","SF Pro Icons","AOS Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.47059;
+    width: 70px;
+    overflow: visible;
+    padding: 4px 5px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+  }
+  
+  .addFavourite:disabled {
+    cursor: default;
+    opacity: .3;
+  }
+  
+  .addFavourite:hover {
+    background-image: linear-gradient(#51A9EE, #147BCD);
+    border-color: #1482D0;
+    text-decoration: none;
+  }
+  
+  .addFavourite:active {
+    background-image: linear-gradient(#3D94D9, #0067B9);
+    border-color: #006DBC;
+    outline: none;
+  }
+  
+  .addFavourite:focus {
+    box-shadow: rgba(131, 192, 253, 0.5) 0 0 0 3px;
+    outline: none;
+  }
+.error{
+    background-color: greenyellow;
+    color: #c90000;
 }

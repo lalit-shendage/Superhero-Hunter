@@ -1,0 +1,46 @@
+body{
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Silver-surfe-superhero-wallpaper.jpg");
+  display: grid;
+  place-items: center;
+}
+.nav-link{
+    background-color: aqua;
+    margin-top: 5px;
+    margin:5%;
+}
+.inactive{
+    color: aliceblue;
+}
+
+.card{
+  background-image: conic-gradient(rgb(230, 162, 162),  rgb(162,230,162), rgb(162,162,230));
+  align-items: center;
+  margin: 20vh;
+}
+
+.btn{
+  background-color: lightgoldenrodyellow;
+}
+.btn:hover {
+  background-color: royalblue;
+  color: white;
+}
+.box {
+  color: aliceblue;
+  --border-size: 3px;
+  --border-angle: 0turn;
+ 
+  background-image: conic-gradient(
+      from var(--border-angle),
+      #213,
+      #112 50%,
+      #213
+    ),
+    conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+  background-size: calc(100% - (var(--border-size) * 2))
+      calc(100% - (var(--border-size) * 2)),
+    cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
